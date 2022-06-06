@@ -3,14 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 a {
     text-decoration: none;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     --gray-text-color: #5b5b5b;
-    --primary-text-color: white ;
+    --primary-text-color: white;
     --secondary-text-color: #5c5c62;
     --black-color: black;
     --durability-text-color: #6a737d9c;
@@ -18,11 +20,13 @@ body {
     --border-color: #ff9a0045;
     --text-decoration-color: #ff6f13;
 }
-ul{
+
+ul {
     color: var(--gray-text-color);
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
+
 .container {
     margin: 0 auto;
     padding: 0 30px;
@@ -49,49 +53,57 @@ ul{
     max-width: 900px;
 }
 
-.container, .header{
-    padding:0;
-    color:white;
+.container,
+.header {
+    padding: 0;
+    color: white;
 }
-.header{
-    width:100%;
+
+.header {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #272727; 
-    min-height:  250px;
+    background-color: #272727;
+    min-height: 250px;
 }
-.mainContentContainer{
+
+.mainContentContainer {
     display: grid;
     grid-template-columns: 60% 40%;
 }
-.secondContentSection{
+
+.secondContentSection {
     position: relative;
     bottom: 35px;
     padding-top: 35px;
-    background-color:#ff6f13;
+    background-color: #ff6f13;
     height: 108%;
     border-top-left-radius: 20px;
 }
-.sectionConteiner{
-    max-width:99%;
+
+.sectionConteiner {
+    max-width: 99%;
     max-width: 95%;
     padding: 60px 0 0 60px;
 }
-.secondSectionConteiner{
-    max-width:100%;
+
+.secondSectionConteiner {
+    max-width: 100%;
     padding: 0 30px 0 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top:40px;
+    margin-top: 40px;
 }
+
 .containerHeader {
     display: flex;
     align-items: baseline;
 }
-.sectionConteiner > .containerHeader > h3{
+
+.sectionConteiner>.containerHeader>h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 22px;
@@ -100,7 +112,8 @@ ul{
     line-height: 40px;
     padding: 0 0 0 20px
 }
-.secondSectionConteiner > .containerHeader > h3{
+
+.secondSectionConteiner>.containerHeader>h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 22px;
@@ -109,42 +122,50 @@ ul{
     line-height: 40px;
     text-align: center;
 }
-.sectionConteiner > ul{
+
+.sectionConteiner>ul {
     margin-top: 7px;
     position: relative;
     left: 20px;
 }
-.secondSectionConteiner > ul{
+
+.secondSectionConteiner>ul {
     margin-top: 7px;
     position: relative;
     left: 20px;
-    color:white
+    color: white
 }
-.sectionConteiner > p {
+
+.sectionConteiner>p {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: var(--gray-text-color);
 }
+
 .sectionIcon {
     padding: 0 0 0 0;
     font-size: 30px;
-    color:var(--text-decoration-color);
+    color: var(--text-decoration-color);
 }
+
 .contactIcon {
     padding: 0 0 0 0;
     font-size: 35px;
-    color:white;
+    color: white;
 }
-.EdContiner > p{
-  max-width:80%;
-  text-align: center;
-  padding-left:10px;
+
+.EdContiner>p {
+    max-width: 80%;
+    text-align: center;
+    padding-left: 10px;
 }
-.ContactContiner{
+
+.ContactContiner {
     margin-top: 40px;
-    width:100%;
+    width: 100%;
 }
-.ContactContiner > h3{
+
+.ContactContiner>h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 22px;
@@ -155,51 +176,56 @@ ul{
     display: flex;
     justify-content: center;
 }
-.contactAnchorContainer{
+
+.contactAnchorContainer {
     margin: 25px auto 0 auto;
-    max-width:70%;
+    max-width: 70%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 30px;
 }
-.contactAnchorContainer > a{
+
+.contactAnchorContainer>a {
     display: flex;
     justify-content: center;
 }
+
 .contact-info__header,
-  .contact-info__sub-header {
-      text-align: center;
-      padding: 0 30px 0 30px;
-  }
+.contact-info__sub-header {
+    text-align: center;
+    padding: 0 30px 0 30px;
+}
 
-  .contact-info__header {
-      color: var(--primary-text-color);
-      font-size: 42px;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 700;
-      margin-bottom: 15px;
-      text-decoration-color: var(--text-decoration-color);
-      text-decoration-line: underline;
-  }
+.contact-info__header {
+    color: var(--primary-text-color);
+    font-size: 42px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-decoration-color: var(--text-decoration-color);
+    text-decoration-line: underline;
+}
 
-  .contact-info__sub-header {
-      color: var(--primary-text-color);
-      margin-bottom: 30px;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 500;
-  }
+.contact-info__sub-header {
+    color: var(--primary-text-color);
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
 
-  .contact-info__block {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-  }
-  @media screen and (max-width: 576px) {
+.contact-info__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 576px) {
+
     .main-info,
     .contact_info_container {
         flex-direction: column;
     }
-    
+
     .contact_info_container {
         align-items: center;
     }
@@ -207,30 +233,37 @@ ul{
     .contact-info__block:not(:last-child) {
         margin-bottom: 20px;
     }
-    .mainContentContainer{
-       display:flex;
-       flex-direction: column;
+
+    .mainContentContainer {
+        display: flex;
+        flex-direction: column;
     }
-   .secondContentSection{
-       position: initial;
-       border-top-left-radius: 0px;
-       padding-bottom: 10px;
-   }
-   .resume{
-       padding-bottom: 0;
-   }
-   .contactAnchorContainer{
-       margin-bottom: 30px;
-   }
-   .sectionConteiner{
-       text-align: center;
-       padding-left: 20px;
-   }
-   .sectionConteiner > ul{
-text-align: left;
-   }
-   .sectionConteiner > .containerHeader{
-       display: flex;
-       justify-content: center;
-   }
+
+    .secondContentSection {
+        position: initial;
+        border-top-left-radius: 0px;
+        padding-bottom: 10px;
+    }
+
+    .resume {
+        padding-bottom: 0;
+    }
+
+    .contactAnchorContainer {
+        margin-bottom: 30px;
+    }
+
+    .sectionConteiner {
+        text-align: center;
+        padding-left: 20px;
+    }
+
+    .sectionConteiner>ul {
+        text-align: left;
+    }
+
+    .sectionConteiner>.containerHeader {
+        display: flex;
+        justify-content: center;
+    }
 }
