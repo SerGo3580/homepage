@@ -136,7 +136,8 @@ ul{
     color:white;
 }
 .EdContiner > p{
-  max-width:70%;
+  max-width:80%;
+  text-align: center;
   padding-left:10px;
 }
 .ContactContiner{
