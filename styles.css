@@ -112,6 +112,7 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top:27px;
 }
 .secondSectionConteiner > ul{
     margin-top: 7px;
@@ -129,7 +130,10 @@ ul{
     font-size: 30px;
     color:var(--text-decoration-color);
 }
-.mainContentContainer {}
+.EdContiner > p{
+  max-width:70%;
+  padding-left:10px;
+}
 @media screen and (max-width: 576px) {
 
     .main-info,
