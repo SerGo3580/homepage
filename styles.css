@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+a {
+    text-decoration: none;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
@@ -130,9 +132,37 @@ ul{
     font-size: 30px;
     color:var(--text-decoration-color);
 }
+.contactIcon {
+    padding: 0 0 0 0;
+    font-size: 25px;
+    color:white;
+}
 .EdContiner > p{
   max-width:70%;
   padding-left:10px;
+}
+.ContactContiner{
+    width:100%;
+}
+.ContactContiner > h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.contactAnchorContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20px;
+}
+.contactAnchorContainer > a > i{
+    display: flex;
+    justify-content: center;
 }
 @media screen and (max-width: 576px) {
 
