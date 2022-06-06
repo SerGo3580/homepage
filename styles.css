@@ -7,9 +7,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
-
+    --gray-text-color: #5b5b5b;
     --primary-text-color: white ;
     --secondary-text-color: #5c5c62;
+    --black-color: black;
     --durability-text-color: #6a737d9c;
     --icon-color: #6a737d;
     --border-color: #ff9a0045;
@@ -54,6 +55,33 @@ body {
     justify-content: center;
     background-color: #272727; 
     min-height:  250px;
+}
+.firstContentSection{
+    max-width:55%;
+    padding: 60px 0 0 60px;
+}
+.containerHeader {
+    display: flex;
+    align-items: baseline;
+}
+.aboutMeContiner > .containerHeader > h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: var(--black-color);
+    line-height: 40px;
+    padding: 0 0 0 20px
+}
+.aboutMeContiner > p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: var(--gray-text-color);
+}
+.fa-person {
+    padding: 0 0 0 0;
+    font-size: 30px;
+    color:orange;
 }
 @media screen and (max-width: 576px) {
 
