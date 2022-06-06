@@ -114,7 +114,7 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top:27px;
+    margin-top:40px;
 }
 .secondSectionConteiner > ul{
     margin-top: 7px;
@@ -134,7 +134,7 @@ ul{
 }
 .contactIcon {
     padding: 0 0 0 0;
-    font-size: 25px;
+    font-size: 35px;
     color:white;
 }
 .EdContiner > p{
@@ -142,6 +142,7 @@ ul{
   padding-left:10px;
 }
 .ContactContiner{
+    margin-top: 40px;
     width:100%;
 }
 .ContactContiner > h3{
@@ -156,11 +157,13 @@ ul{
     justify-content: center;
 }
 .contactAnchorContainer{
+    margin: 25px auto 0 auto;
+    max-width:70%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-row-gap: 20px;
+    grid-row-gap: 30px;
 }
-.contactAnchorContainer > a > i{
+.contactAnchorContainer > a{
     display: flex;
     justify-content: center;
 }
