@@ -14,7 +14,7 @@ body {
     --durability-text-color: #6a737d9c;
     --icon-color: #6a737d;
     --border-color: #ff9a0045;
-    --text-decoration-color: #ff9a00;
+    --text-decoration-color: #ff6f13;
 }
 ul{
     color: var(--gray-text-color);
@@ -60,9 +60,26 @@ ul{
     background-color: #272727; 
     min-height:  250px;
 }
-.firstContentSection{
-    max-width:55%;
+.mainContentContainer{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.secondContentSection{
+    position: relative;
+    bottom: 35px;
+    padding-top: 35px;
+    background-color:#ff6f13;
+    height: 116%;
+    border-top-left-radius: 20px;
+}
+.sectionConteiner{
+    max-width:99%;
+    max-width: 95%;
     padding: 60px 0 0 60px;
+}
+.secondSectionConteiner{
+    max-width:100%;
+    padding: 0 30px 0 30px;
 }
 .containerHeader {
     display: flex;
@@ -77,10 +94,31 @@ ul{
     line-height: 40px;
     padding: 0 0 0 20px
 }
-.sectionConteiner > ul {
+.secondSectionConteiner > .containerHeader > h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+}
+.sectionConteiner > ul{
     margin-top: 7px;
     position: relative;
     left: 20px;
+}
+.secondSectionConteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:27px;
+}
+.secondSectionConteiner > ul{
+    margin-top: 7px;
+    position: relative;
+    left: 20px;
+    color:white
 }
 .sectionConteiner > p {
     font-family: 'Montserrat', sans-serif;
@@ -90,7 +128,11 @@ ul{
 .sectionIcon {
     padding: 0 0 0 0;
     font-size: 30px;
-    color:orange;
+    color:var(--text-decoration-color);
+}
+.EdContiner > p{
+  max-width:70%;
+  padding-left:10px;
 }
 @media screen and (max-width: 576px) {
 
