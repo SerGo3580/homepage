@@ -82,6 +82,10 @@ ul{
 .secondSectionConteiner{
     max-width:100%;
     padding: 0 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:40px;
 }
 .containerHeader {
     display: flex;
@@ -109,12 +113,6 @@ ul{
     margin-top: 7px;
     position: relative;
     left: 20px;
-}
-.secondSectionConteiner{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top:40px;
 }
 .secondSectionConteiner > ul{
     margin-top: 7px;
@@ -167,21 +165,6 @@ ul{
     display: flex;
     justify-content: center;
 }
-@media screen and (max-width: 576px) {
-
-    .main-info,
-    .contact_info_container {
-        flex-direction: column;
-    }
-
-    .contact_info_container {
-        align-items: center;
-    }
-
-    .contact-info__block:not(:last-child) {
-        margin-bottom: 20px;
-    }
-}
 .contact-info__header,
   .contact-info__sub-header {
       text-align: center;
@@ -210,3 +193,43 @@ ul{
       flex-direction: column;
       justify-content: space-between;
   }
+  @media screen and (max-width: 576px) {
+    .main-info,
+    .contact_info_container {
+        flex-direction: column;
+    }
+    
+    .contact_info_container {
+        align-items: center;
+    }
+
+    .contact-info__block:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .mainContentContainer{
+       display:flex;
+       flex-direction: column;
+    }
+   .secondContentSection{
+       position: initial;
+       border-top-left-radius: 0px;
+       padding-bottom: 10px;
+   }
+   .resume{
+       padding-bottom: 0;
+   }
+   .contactAnchorContainer{
+       margin-bottom: 30px;
+   }
+   .sectionConteiner{
+       text-align: center;
+       padding-left: 20px;
+   }
+   .sectionConteiner > ul{
+text-align: left;
+   }
+   .sectionConteiner > .containerHeader{
+       display: flex;
+       justify-content: center;
+   }
+}
